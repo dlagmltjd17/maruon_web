@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/maruon_web/index.html/precache-manifest.0bf2150581d444e10e156a2e7ad68a02.js"
+  "/maruon_web/index.html/precache-manifest.49f5cbbc971013c1f2e06bbd178f7071.js"
 );
 
 self.addEventListener('message', (event) => {

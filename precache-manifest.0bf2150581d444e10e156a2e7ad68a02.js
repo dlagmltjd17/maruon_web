@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2d53254a66d4ecf9b9d00ffc399c2ff",
+    "revision": "24727ec2515291e22385d46e0a260b03",
     "url": "/maruon_web/index.html/index.html"
   },
   {
-    "revision": "7ead35ba220de6e63f9a",
+    "revision": "c214d75d7b4dc2471417",
     "url": "/maruon_web/index.html/static/css/main.e7e35eaa.chunk.css"
   },
   {
-    "revision": "f1c04d3ebffed598cf5b",
-    "url": "/maruon_web/index.html/static/js/2.2a297267.chunk.js"
+    "revision": "3a70387be83140fd97cf",
+    "url": "/maruon_web/index.html/static/js/2.4239013e.chunk.js"
   },
   {
-    "revision": "7ead35ba220de6e63f9a",
-    "url": "/maruon_web/index.html/static/js/main.c86793f5.chunk.js"
+    "revision": "c214d75d7b4dc2471417",
+    "url": "/maruon_web/index.html/static/js/main.aeeb28ab.chunk.js"
   },
   {
     "revision": "9655a0ba70062dbff83c",

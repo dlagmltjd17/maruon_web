@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/maruon_web/static/css/main.e7e35eaa.chunk.css",
+    "main.js": "/maruon_web/static/js/main.c86793f5.chunk.js",
+    "main.js.map": "/maruon_web/static/js/main.c86793f5.chunk.js.map",
+    "runtime~main.js": "/maruon_web/static/js/runtime~main.453d87ac.js",
+    "runtime~main.js.map": "/maruon_web/static/js/runtime~main.453d87ac.js.map",
+    "static/js/2.2a297267.chunk.js": "/maruon_web/static/js/2.2a297267.chunk.js",
+    "static/js/2.2a297267.chunk.js.map": "/maruon_web/static/js/2.2a297267.chunk.js.map",
+    "index.html": "/maruon_web/index.html",
+    "precache-manifest.17e3808f8ddd0ea2dffe4544ddbf8276.js": "/maruon_web/precache-manifest.17e3808f8ddd0ea2dffe4544ddbf8276.js",
+    "service-worker.js": "/maruon_web/service-worker.js",
+    "static/css/main.e7e35eaa.chunk.css.map": "/maruon_web/static/css/main.e7e35eaa.chunk.css.map"
+  }
+}

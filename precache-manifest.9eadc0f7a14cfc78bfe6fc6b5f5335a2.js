@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f35dc099549bf285d33253a3abdd21db",
+    "revision": "fb10ccdd69ee74e4e2d57cae7c9afe71",
     "url": "/maruon_web/index.html"
   },
   {

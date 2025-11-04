@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow-x: hidden;
+}
+
+main {
+    font-family: "Pretendard", sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+  
+/* 각 섹션 기본 여백 */
+section {
+    padding: 120px 10%;
+}
+  
+/* 섹션 배경 */
+#latest-contents {
+    background: #fff;
+}
+  
+#notice {
+    background: #fafafa;
+}
+  
+/* 반응형 여백 */
+@media (max-width: 1024px) {
+    section {
+        padding: 100px 6%;
+    }
+}
+  
+@media (max-width: 768px) {
+    section {
+        padding: 80px 4%;
+    }
+}
+  

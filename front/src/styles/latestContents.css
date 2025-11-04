@@ -1,0 +1,107 @@
+.latest-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Pretendard", sans-serif;
+    gap: 40px; /* 좌우 간격 */
+}
+  
+/* 왼쪽 영역: 제목 + 버튼 */
+.latest-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* 왼쪽 정렬 */
+    text-align: left;
+}
+  
+.latest-left h2 {
+    margin: 0 0 15px 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+  
+.latest-left .view-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Pretendard";
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+  
+.latest-left .view-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+  
+/* 오른쪽 영역: 카드 2개 */
+.latest-right {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+  
+.content-card {
+    width: 260px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.content-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.thumbnail {
+    width: 100%;
+    height: 180px;
+    background-color: #ddd;
+}
+  
+.info {
+    padding: 16px;
+    background: #fff;
+}
+  
+.info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+  
+.info p {
+    color: #777;
+    font-size: 0.9rem;
+}
+  
+/* 반응형 */
+@media (max-width: 1024px) {
+    .latest-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  
+    .latest-left {
+        align-items: center;
+    }
+  
+    .latest-right {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+  

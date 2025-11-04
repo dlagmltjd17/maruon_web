@@ -1,0 +1,22 @@
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    padding: 60px 10%;
+    font-family: "Pretendard", sans-serif;
+}
+  
+.footer p {
+    margin: 0;
+    white-space: pre-line;
+}
+  
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.75rem;
+        padding: 40px 6%;
+    }
+}
+  

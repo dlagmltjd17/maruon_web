@@ -22,7 +22,7 @@ export default function LatestContents() {
                 </div>
             </a>
 
-            <a href="https://www.instagram.com/reel/DP8uWBHD4QA/?igsh=MjYxNm00OTUxZjcw" className="content-card">
+            <a href="https://www.instagram.com/reel/DP8uWBHD4QA/" className="content-card">
                 <div className="thumbnail">
                     <img src="/images/siheung.png" alt="siheung motion graphics" />
                 </div>

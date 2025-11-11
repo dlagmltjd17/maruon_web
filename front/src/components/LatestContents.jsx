@@ -13,18 +13,22 @@ export default function LatestContents() {
         {/* 오른쪽 콘텐츠 카드 영역 */}
         <div className="latest-right">
             <div className="content-card">
-                <div className="thumbnail"></div>
+                <div className="thumbnail">
+                    <img src="/images/Far Away.jpg" alt="Keemslime - Far Away" />
+                </div>
                 <div className="info">
-                    <h3>작품명은 여기에</h3>
-                    <p>English Title is here</p>
+                    <h3>[MV] Keemslime - Far Away</h3>
+                    <p>Keemslime - Far Away Official Music Video</p>
                 </div>
             </div>
 
             <div className="content-card">
-                <div className="thumbnail"></div>
+                <div className="thumbnail">
+                    <img src="/images/siheung.png" alt="siheung motion graphics" />
+                </div>
                 <div className="info">
-                    <h3>작품명은 여기에</h3>
-                    <p>English Title is here</p>
+                    <h3>시흥청년알리미 모션그래픽</h3>
+                    <p>Siheung Youth Motion Graphics</p>
                 </div>
             </div>
         </div>

@@ -5,13 +5,13 @@ export default function NoticeSection() {
     const notices = [
         {
             tag: "공지사항",
-            title: "공지사항 제목을 입력하세요",
-            desc: "공지 본문은 여기 이 자리에 이런식으로 들어갈 예정입니다. 텍스트가 길어질 경우 말줄임표로 처리됩니다.",
+            title: "현재 홈페이지 점검 중입니다.",
+            desc: "홈페이지 점검으로 인해 일부 메뉴가 작동하지 않을 수 있으니 양해 부탁드립니다.",
         },
         {
             tag: "언론보도",
-            title: "언론보도 제목을 입력하세요",
-            desc: "보도 내용도 여기 이 자리에 이런식으로 들어갑니다.",
+            title: "최근 언론보도가 없습니다.",
+            desc: "최근 언론보도가 없습니다.",
         },
     ];
 
@@ -27,7 +27,13 @@ export default function NoticeSection() {
             <div className="notice-right">
                 {notices.map((item, i) => (
                     <div className="notice-item" key={i}>
-                        <div className="notice-img"></div>
+                        <div className="notice-img">
+                            {i === 0 ? (
+                                <img src="/maruon_logo_low.png" alt="홈페이지 점검 이미지" />
+                            ) : (
+                                <img src="/N.png" alt="언론보도" />
+                            )}
+                        </div>
                         <div className="notice-text">
                             <span className="tag">{item.tag}</span>
                             <h3>{item.title}</h3>
